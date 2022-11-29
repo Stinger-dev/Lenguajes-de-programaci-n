@@ -30,7 +30,7 @@ Según el nivel de abstracción es más cercano al lenguaje de máquina.
 
 #### Bajo nivel
 Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje maquina
-El mas conocido con diferencia es ensamblador, tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo) 
+El mas conocido con diferencia es [**ensamblador**](https://www.youtube.com/watch?v=4gwYkEK0gOk), tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo) 
 
 #### Medio nivel
 Sucesores de los de bajo nivel, son una abstaccion mas cercana a lenguaje natural pero manteniendo la libertad que aporta estar cerca de esamblador
