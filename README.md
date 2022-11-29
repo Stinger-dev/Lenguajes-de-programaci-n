@@ -38,7 +38,7 @@ La muchos de estos lenguajes estan basados en ensamblador, es decir, usando inst
 
 ![](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/rust.png)
 
-[**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje mas amados segun una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow, surge como un sucesor del mitico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
+[**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje mas amados segun una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mitico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
 Es uno de los lenguajes con mayor proyeccion cuando hablamos de codigo que es necesario que se ejecute lo mas rapido posible
 Asi seria el mitico 'hola mundo' en este lenguaje 
 
