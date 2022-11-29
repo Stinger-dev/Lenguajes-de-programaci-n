@@ -24,9 +24,13 @@ Como este sistema es muy **complicados** cuando intentamos hacer programas más 
 
 Según el nivel de abstracción es más cercano al lenguaje de máquina.
 
-- Bajo nivel: ensamblador
-- Medio nivel: C
-- Alto nivel: Python
+ - [**Bajo nivel**](#bajo-nivel)
+ - [**Medio nivel**](#forma-de-ejecución)
+ - [**Alto nivel**](#paradigma)
+
+#### Bajo nivel
+Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje maquina
+El mas conocido con diferencia es ensamblador, tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo)
 
 ### Forma de ejecución
 
@@ -50,17 +54,17 @@ _La diferencia entre un lenguaje interpretado y uno compilado es como la diferen
 
 Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especificar cómo queremos estructurar el código, a esta manera de estructurar el código se le llama paradigma
 
--Imperativos
+- Imperativos:
 	Basic
--Declarativos
+- Declarativos:
 	Haskell
--Procedimentales
+- Procedimentales:
 	Erlang
--Orientados a objetos
+- Orientados a objetos:
 	Kotlin
--Funcionales
+- Funcionales:
 	Miranda
--Lógicos	
+- Lógicos:	
 	Prolog
 
 
