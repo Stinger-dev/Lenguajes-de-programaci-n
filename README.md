@@ -10,13 +10,13 @@ Podriamos entenderlo como una serie de **comandos preestablecidos** con los que 
 
 A la hora de clasificar los lenguajes podriamos usar la siguiente divison
 
- - Nivel de abstracción
- - Forman de ejecución
- - Paradigma
+ - [**Nivel de abstracción**](#nivel-de-abstracción)
+ - [**Forman de ejecución**](#forma-de-ejecución)
+ - [**Paradigma**](#paradigma)
  
 Estas tres caracteristicas son los principales puntos que diferencian y clasican a los lenguajes haciendolos mas o menos aptos para cada tipo de aplicacion
 
-  ### - Nivel de abstracción
+  ### Nivel de abstracción
  
 Para comunicarnos con ordenador usamos **lenguaje máquina**, que es una **secuencia de 0 y 1** con lo que controlamos los pulsos **eléctricos** que se usan para transmitir el mensaje y las órdenes
 
@@ -28,7 +28,7 @@ Según el nivel de abstracción es más cercano al lenguaje de máquina.
 - Medio nivel: C
 - Alto nivel: Python
 
-### - Forma de ejecución
+### Forma de ejecución
 
 Una vez ya tenemos la abstracción ahora tenemos que traducir el código a lenguaje máquina, y según cómo lo hagamos tenemos los siguientes modos:
 
@@ -44,3 +44,23 @@ _La diferencia entre un lenguaje interpretado y uno compilado es como la diferen
 - Virtuales: 
   Son lenguajes más portables que los lenguajes compilados puesto que el código que se genera tras la compilación es un código intermedio o bytecode. Este código puede   ser a su vez interpretado por una máquina virtual instalada en cualquier equipo.
   Java
+
+
+### Paradigma
+
+Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especificar cómo queremos estructurar el código, a esta manera de estructurar el código se le llama paradigma
+
+-Imperativos
+	Basic
+-Declarativos
+	Haskell
+-Procedimentales
+	Erlang
+-Orientados a objetos
+	Kotlin
+-Funcionales
+	Miranda
+-Lógicos	
+	Prolog
+
+
