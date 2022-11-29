@@ -25,12 +25,32 @@ Como este sistema es muy **complicados** cuando intentamos hacer programas más 
 Según el nivel de abstracción es más cercano al lenguaje de máquina.
 
  - [**Bajo nivel**](#bajo-nivel)
- - [**Medio nivel**](#forma-de-ejecución)
- - [**Alto nivel**](#paradigma)
+ - [**Medio nivel**](#medio-nivel)
+ - [**Alto nivel**](#alto-nivel)
 
 #### Bajo nivel
 Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje maquina
-El mas conocido con diferencia es ensamblador, tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo)
+El mas conocido con diferencia es ensamblador, tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo) 
+
+#### Medio nivel
+Sucesores de los de bajo nivel, son una abstaccion mas cercana a lenguaje natural pero manteniendo la libertad que aporta estar cerca de esamblador
+La muchos de estos lenguajes estan basados en ensamblador, es decir, usando instrucciones ya existentes en esamblador crean nuevas instrucciones como convinaciones de las anteriores, facilitando el uso y mejorando los tiempos de desarrollo
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/144px-Rust_programming_language_black_logo.svg.png)
+
+[**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje mas amados segun una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow, surge como un sucesor del mitico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
+Es uno de los lenguajes con mayor proyeccion cuando hablamos de codigo que es necesario que se ejecute lo mas rapido posible
+Asi seria el mitico 'hola mundo' en este lenguaje 
+
+```rust
+fn main() {
+    println!("Hello World");
+}
+```
+
+#### Alto nivel
+Son los mas cercanos al lenguaje natural y al igual que los de medio nivel se basan en los de bajo nivel, estos se basan en los lenguajes de medio nivel para general un set de instrucciones que facilita el uso y los tiempos de desarrollos sacrificando la flexibilidad de estos
+
 
 ### Forma de ejecución
 
