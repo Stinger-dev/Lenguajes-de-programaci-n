@@ -95,17 +95,11 @@ Son lenguajes más portables que los lenguajes compilados puesto que el código 
 
 Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especificar cómo queremos estructurar el código, a esta manera de estructurar el código se le llama paradigma
 
-- Imperativos:
-	Basic
-- Declarativos:
-	Haskell
-- Procedimentales:
-	Erlang
-- Orientados a objetos:
-	Kotlin
-- Funcionales:
-	Miranda
-- Lógicos:	
-	Prolog
+- Imperativos: Basic
+- Declarativos: Haskell
+- Procedimentales: Erlang
+- Orientados a objetos: Kotlin
+- Funcionales: Miranda
+- Lógicos: Prolog
 
 
