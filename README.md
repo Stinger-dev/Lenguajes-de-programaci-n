@@ -49,25 +49,46 @@ fn main() {
 ```
 
 #### Alto nivel
-Son los mas cercanos al lenguaje natural y al igual que los de medio nivel se basan en los de bajo nivel, estos se basan en los lenguajes de medio nivel para general un set de instrucciones que facilita el uso y los tiempos de desarrollos sacrificando la flexibilidad de estos
-
+Son los mas cercanos al lenguaje natural y al igual que los de medio nivel se basan en los de bajo nivel, estos se basan en los lenguajes de medio nivel para general un set de instrucciones que facilita el uso y los tiempos de desarrollos sacrificando la flexibilidad de estos, uno de los mas usados actualmente seria [**JavaScript**](https://developer.mozilla.org/es/docs/Web/JavaScript) que es una mejora sobre [Java](https://www.java.com/es/)
 
 ### Forma de ejecución
 
 Una vez ya tenemos la abstracción ahora tenemos que traducir el código a lenguaje máquina, y según cómo lo hagamos tenemos los siguientes modos:
 
-- Compilados:
-	Se traduce el código una vez y siempre que se use el programa se recurre al archivo binario.
-	Rust
-- Interpretados: 
-	En vez de traducirse una vez, se traduce cada vez que se usa.
-	PHP
+#### Compilados:
+Fueron los primeros en aparecer, este tipo de lenguaje para poder ejecutarlo hay que 'traducirlo' (compilarlo) en su totalidad antes de poder usarlo
+Una de las cosas buenas de esto es que, una vez ya se ha compilado por primera vez, ya no hay que compilarlo nunca mas, lo que lo hace mas eficiente que los lenguajes interpretados. Pero uno de los mayores inconvenientes es que cada sistema necesita unas instrucciones especificas, por lo que un programa que haya funconado en windows no funcionaria en linux a menos que lo volvamos a compilar con las instrucciones necesarias
 
-_La diferencia entre un lenguaje interpretado y uno compilado es como la diferencia entre leer un libro traducido y un libro que está en el lenguaje original pero lo vas traduciendo mientras lo lees_
+El encargado de compilar el rograma es denominado 'compilador' y es el encargado de pasar del lenguaje de mayor nivel que usamos para programar sea correctamente transformado a lenguaje maquina
 
-- Virtuales: 
-  Son lenguajes más portables que los lenguajes compilados puesto que el código que se genera tras la compilación es un código intermedio o bytecode. Este código puede   ser a su vez interpretado por una máquina virtual instalada en cualquier equipo.
-  Java
+El mas conocido de estos es C++, uno de los lenguajes en los que esta programado windows
+
+#### Interpretados: 
+A diferencia de los lenguajes compilados, este no se compila solo una vez, sino que cada vez que se ejecuta se va 'compilando' en tiempo real la instruccion que sea necesaria, de esto se encarga el 'interprete' 
+
+Usar un lenguaje interpretado permite acelerar los tiempos de desarrollo ya que cada vez que hay que probar algo se puede probar esa parte sin necesicad de compilar el resto ademas de que sabes en que linea especificamente ha dejado de funcionar como deberias
+
+La mayor ventaja de usar un lenguaje interpretado es que una vez escribes el codigo, este puede ser ejecutado en cualquier sistema que tenga instalado el interprete necesario, lo que facilita que un software sea multiplatarma
+
+Como nada es perfecto, los lenguajes interpretados tambien tienen un gran problema, y es la eficiencia, ya que realmente cuando ejecutas el codigo no solo se esta ejecutando el programa, sino tambien el interprete que lo traduce en tiempo real, por lo que la velocidad de uno depende del otro. Aunque cada vez estan mas optimizados, por ejemplo, en la ultima versionde Python (la 3.11), se asegura haber mejorado la eficiencia entra un 10 y un 60 por ciento, por lo que cada vez tienen tiempos de ejecuccion menores
+
+Asi es como se escribiria un codigo que cacula los n primeros numeros de la sucesion de fibonacci
+
+``` python
+def fibonacci (k, tmp=[1,1]):   
+    if len(tmp) < k:
+        tmp.append(tmp[-1]+tmp[-2])
+        fibonacci(k, tmp)
+    return tmp
+    
+paraImprimir = map(str,fibonacci(10))
+print("->".join(paraImprimir))
+```
+
+_La diferencia entre un lenguaje interpretado y uno compilado es como la diferencia entre leer un libro traducido y un libro que está en el lenguaje original pero lo vas traduciendo mientras lo lees, probablemente te sea mas rapido leerlo si no necesitas traducirlo_
+
+#### Virtuales: 
+Son lenguajes más portables que los lenguajes compilados puesto que el código que se genera tras la compilación es un código intermedio o bytecode. Este código puede ser a su vez interpretado por una máquina virtual instalada en cualquier equipo. 
 
 
 ### Paradigma
