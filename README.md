@@ -189,6 +189,6 @@ Este paradigma es muy poco utilizado, ya que es uno de los mas dificiles de inte
 El lenguaje logico por excelencia es Prolog
 
 
-
+Realmente casi ningun lenguaje es puramente de un paradigma, ya que normalmente son una combinacion de diferentes tipos de codigo
 
 
