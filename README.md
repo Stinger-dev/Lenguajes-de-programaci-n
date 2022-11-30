@@ -153,7 +153,7 @@ Asi cada vez que queramos generar una bala, en vez de tener que escribir un codi
 Muchos de los lenguajes mas usados actualmente implementan orientacion a objetos de manera nativa, algunos incluso son pruamente orientados a objetos, como java, pero el primer lenguaje que impelemento el concepto de clase fue [Simula](https://es.wikipedia.org/wiki/Simula) 
 Actualmente la orientacion a objetos es aun mas compleja con los conceptos de herencia y polimorfismo
 
-https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/Java.png
+![](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/Java.png)
 
 ```java
 public class Main{
