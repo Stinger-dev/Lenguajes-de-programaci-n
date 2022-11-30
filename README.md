@@ -40,11 +40,27 @@ La muchos de estos lenguajes estan basados en ensamblador, es decir, usando inst
 
 [**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje mas amados segun una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mitico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
 Es uno de los lenguajes con mayor proyeccion cuando hablamos de codigo que es necesario que se ejecute lo mas rapido posible
-Asi seria el mitico 'hola mundo' en este lenguaje 
+Asi seria una forma de calcular la sucesion de b 
 
 ```rust
 fn main() {
-    println!("Hello World");
+let mut a = 1;
+let mut b = 1;
+let mut c = 0;
+    for x in 0..10
+    {
+        if x > 1
+        {
+            c = a+b;
+            a = b;
+            b = c;
+            println!("{}", c);
+        }
+        else
+        {
+            println!("{}", a)
+        }
+    }
 }
 ```
 
