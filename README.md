@@ -123,13 +123,14 @@ Son lenguajes más portables que los lenguajes compilados puesto que el código 
 
 
 
+
 ### Paradigma
 
 Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especificar cómo queremos estructurar el código, a esta manera de estructurar el código se le llama paradigma
 
-#### **Imperativos**
+#### Imperativos
 Fueron los primeros en surgir y uno de los mas simples de entender, consiste en una secuencia claramente definida de instrucciones que el ordenador sigue en el orden especificado, la mayoria de los lenguajes mas populares soportan este paaradigma. Basic y cobol son uno de los lenguajes mas antiguos con esta funcionalidad
-#### **Declarativo**
+#### Declarativo
 Aqui lo importante no es el como se hace, dar la orden adecuada y este buscara el mejor algoritmo para ello, un ejemplo de programacion declarativa es cuando el python ponemos lo siguiente
 ```python
 'hola mundo'.upper()
@@ -138,12 +139,12 @@ Ya que realmente no estamos programando el algoritmo que pone todas las letras e
 
 Este paradigma suele hacer el codigo mas facil de leer y facil de hacer programas simples, un lenguaje delcarativo, si nos vamos al significado mas amplio, seria SQL, ya que realemnte no nos encargamos de hacer casi ninguno de los algoritmos que suceden
 
-#### **Procedimentales**
+#### Procedimentales
 Este paradigma se basa en agrupar muchas instrucciones mas pequeñas en una especie de grupos llamados procesos
 Un ejemplo seria imprimir la tabla de multiplicar del 5, pero en vez de usar un bucle, usamos un print para cada uno de los valores
 Un ejemplo de lenguajes que aplican este apradigma es Erlang
 
-#### **Orientados a objetos** 
+#### Orientados a objetos
 Es probablemente el paradigma mas importante hasta la fecha y el mas usado
 Se basa en crear estructuras de datos funcionales (llamadas clases) que son una especie de planos para un objeto, que es una iteracion de la clase que una vez formada tiene 'vida propia'
 En las clases no solo se almacenan datos sino que tambien codigo que trabaja de manera privada o publica con esa informacion, manteniendo una encapsulacion de datos que mejora la privacidad
@@ -151,12 +152,6 @@ Es decir, podriamos tener una clase llamada proyectil, que tenga como variables 
 Asi cada vez que queramos generar una bala, en vez de tener que escribir un codigo unico para cada una, invocamos a un objeto que sea de clase bala 
 Muchos de los lenguajes mas usados actualmente implementan orientacion a objetos de manera nativa, algunos incluso son pruamente orientados a objetos, como java, pero el primer lenguaje que impelemento el concepto de clase fue [Simula](https://es.wikipedia.org/wiki/Simula) 
 Actualmente la orientacion a objetos es aun mas compleja con los conceptos de herencia y polimorfismo
-
-
-#### **Funcionales** 
-Realmente podria estar dento de lenguajes declarativos, ya que son un tipo de ellos pero con la caracteristica de que estos usan puramente funciones matematicas
-- Funcionales: Miranda
-- Lógicos: Prolog
 
 ```java
 public class Main{
@@ -180,5 +175,18 @@ public class Main{
 
 
 https://user-images.githubusercontent.com/75430027/204877563-f610b23b-f692-4d77-b81d-29ce73d70255.mp4
+
+#### Funcionales
+Realmente podria estar dento de lenguajes declarativos, ya que son un tipo de ellos pero con la caracteristica de que estos usan puramente funciones matematicas, este tipo de lenguajes se usa principalmente para manejar informacion, ya que no pueden contener variables
+[Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) o [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) son ejemplos de lenguajes que usan el paradigma funcional como paradigma principal
+
+
+#### Logicos
+El paradigma se basa en la descomposicion de un programa en sus componentes logicos y elementos de control
+Este paradigma es muy poco utilizado, ya que es uno de los mas dificiles de interpretar por un humano cuando se ve el codigo, pero lejos de ser una desventaja, se suel usar a su favor en aplicaciones en las que es beneficioso aislar los calculos, como en la demostracion de teoremas
+El lenguaje logico por excelencia es Prolog
+
+
+
 
 
