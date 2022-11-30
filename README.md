@@ -64,6 +64,12 @@ let mut c = 0;
 }
 ```
 
+
+https://user-images.githubusercontent.com/75430027/204874572-3463ea89-61f6-42dd-b3df-e361e103e868.mp4
+
+
+
+
 #### Alto nivel
 Son los mas cercanos al lenguaje natural y al igual que los de medio nivel se basan en los de bajo nivel, estos se basan en los lenguajes de medio nivel para general un set de instrucciones que facilita el uso y los tiempos de desarrollos sacrificando la flexibilidad de estos, uno de los mas usados actualmente seria [**JavaScript**](https://developer.mozilla.org/es/docs/Web/JavaScript) que es una mejora sobre [Java](https://www.java.com/es/)
 
@@ -101,6 +107,11 @@ paraImprimir = map(str,fibonacci(10))
 print("->".join(paraImprimir))
 ```
 
+
+https://user-images.githubusercontent.com/75430027/204875300-c4532b9f-f6ad-4ed2-bfe7-e3bea697de1f.mp4
+
+
+
 _La diferencia entre un lenguaje interpretado y uno compilado es como la diferencia entre leer un libro traducido y un libro que está en el lenguaje original pero lo vas traduciendo mientras lo lees, probablemente te sea mas rapido leerlo si no necesitas traducirlo_
 
 #### Virtuales: 
@@ -118,4 +129,23 @@ Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especifi
 - Funcionales: Miranda
 - Lógicos: Prolog
 
-
+```java
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 1;
+		int c = 0;
+		for (int i =0 ; i < 10; i++) {
+		    if (i>1){
+		        c = a+b;
+		        a = b;
+		        b = c;
+                System.out.println(c);
+		    }else{
+		       System.out.println(a);
+		    }
+        }
+	}
+}
+```
