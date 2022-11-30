@@ -130,8 +130,7 @@ Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especifi
 - Lógicos: Prolog
 
 ```java
-public class Main
-{
+public class Main{
 	public static void main(String[] args) {
 		int a = 1;
 		int b = 1;
@@ -145,7 +144,7 @@ public class Main
 		    }else{
 		       System.out.println(a);
 		    }
-        }
+        	}
 	}
 }
 ```
