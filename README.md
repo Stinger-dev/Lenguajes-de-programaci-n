@@ -36,7 +36,7 @@ El mas conocido con diferencia es [**ensamblador**](https://www.youtube.com/watc
 Sucesores de los de bajo nivel, son una abstaccion mas cercana a lenguaje natural pero manteniendo la libertad que aporta estar cerca de esamblador
 La muchos de estos lenguajes estan basados en ensamblador, es decir, usando instrucciones ya existentes en esamblador crean nuevas instrucciones como convinaciones de las anteriores, facilitando el uso y mejorando los tiempos de desarrollo
 
-![](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/rust.png)
+![Rustacean](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/rust.png)
 
 [**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje mas amados segun una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mitico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
 Es uno de los lenguajes con mayor proyeccion cuando hablamos de codigo que es necesario que se ejecute lo mas rapido posible
@@ -94,7 +94,9 @@ La mayor ventaja de usar un lenguaje interpretado es que una vez escribes el cod
 
 Como nada es perfecto, los lenguajes interpretados tambien tienen un gran problema, y es la eficiencia, ya que realmente cuando ejecutas el codigo no solo se esta ejecutando el programa, sino tambien el interprete que lo traduce en tiempo real, por lo que la velocidad de uno depende del otro. Aunque cada vez estan mas optimizados, por ejemplo, en la ultima versionde Python (la 3.11), se asegura haber mejorado la eficiencia entra un 10 y un 60 por ciento, por lo que cada vez tienen tiempos de ejecuccion menores
 
-Asi es como se escribiria un codigo que cacula los n primeros numeros de la sucesion de fibonacci
+Asi es como se escribiria un codigo que cacula los n primeros numeros de la sucesion de fibonacci en pythonm uno de los lenguajes compilados por exelencia
+
+![](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/py.png)
 
 ``` python
 def fibonacci (k, tmp=[1,1]):   
