@@ -16,7 +16,7 @@ A la hora de clasificar los lenguajes podriamos usar la siguiente divison
  
 Estas tres caracteristicas son los principales puntos que diferencian y clasican a los lenguajes haciendolos mas o menos aptos para cada tipo de aplicacion
 
-  ### Nivel de abstracción
+  ## Nivel de abstracción
  
 Para comunicarnos con ordenador usamos **lenguaje máquina**, que es una **secuencia de 0 y 1** con lo que controlamos los pulsos **eléctricos** que se usan para transmitir el mensaje y las órdenes
 
@@ -28,11 +28,11 @@ Según el nivel de abstracción es más cercano al lenguaje de máquina.
  - [**Medio nivel**](#medio-nivel)
  - [**Alto nivel**](#alto-nivel)
 
-#### Bajo nivel
+### Bajo nivel
 Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje maquina
 El mas conocido con diferencia es [**ensamblador**](https://www.youtube.com/watch?v=4gwYkEK0gOk), tiene un set de instrucciones muy pequeño, pero con el que tecnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo) 
 
-#### Medio nivel
+### Medio nivel
 Sucesores de los de bajo nivel, son una abstaccion mas cercana a lenguaje natural pero manteniendo la libertad que aporta estar cerca de esamblador
 La muchos de estos lenguajes estan basados en ensamblador, es decir, usando instrucciones ya existentes en esamblador crean nuevas instrucciones como convinaciones de las anteriores, facilitando el uso y mejorando los tiempos de desarrollo
 
@@ -70,14 +70,14 @@ https://user-images.githubusercontent.com/75430027/204874572-3463ea89-61f6-42dd-
 
 
 
-#### Alto nivel
+### Alto nivel
 Son los mas cercanos al lenguaje natural y al igual que los de medio nivel se basan en los de bajo nivel, estos se basan en los lenguajes de medio nivel para general un set de instrucciones que facilita el uso y los tiempos de desarrollos sacrificando la flexibilidad de estos, uno de los mas usados actualmente seria [**JavaScript**](https://developer.mozilla.org/es/docs/Web/JavaScript) que es una mejora sobre [Java](https://www.java.com/es/)
 
-### Forma de ejecución
+## Forma de ejecución
 
 Una vez ya tenemos la abstracción ahora tenemos que traducir el código a lenguaje máquina, y según cómo lo hagamos tenemos los siguientes modos:
 
-#### Compilados:
+### Compilados:
 Fueron los primeros en aparecer, este tipo de lenguaje para poder ejecutarlo hay que 'traducirlo' (compilarlo) en su totalidad antes de poder usarlo
 Una de las cosas buenas de esto es que, una vez ya se ha compilado por primera vez, ya no hay que compilarlo nunca mas, lo que lo hace mas eficiente que los lenguajes interpretados. Pero uno de los mayores inconvenientes es que cada sistema necesita unas instrucciones especificas, por lo que un programa que haya funconado en windows no funcionaria en linux a menos que lo volvamos a compilar con las instrucciones necesarias
 
@@ -85,7 +85,7 @@ El encargado de compilar el rograma es denominado 'compilador' y es el encargado
 
 El mas conocido de estos es C++, uno de los lenguajes en los que esta programado windows
 
-#### Interpretados: 
+### Interpretados: 
 A diferencia de los lenguajes compilados, este no se compila solo una vez, sino que cada vez que se ejecuta se va 'compilando' en tiempo real la instruccion que sea necesaria, de esto se encarga el 'interprete' 
 
 Usar un lenguaje interpretado permite acelerar los tiempos de desarrollo ya que cada vez que hay que probar algo se puede probar esa parte sin necesicad de compilar el resto ademas de que sabes en que linea especificamente ha dejado de funcionar como deberias
@@ -116,7 +116,7 @@ https://user-images.githubusercontent.com/75430027/204875300-c4532b9f-f6ad-4ed2-
 
 _La diferencia entre un lenguaje interpretado y uno compilado es como la diferencia entre leer un libro traducido y un libro que está en el lenguaje original pero lo vas traduciendo mientras lo lees, probablemente te sea mas rapido leerlo si no necesitas traducirlo_
 
-#### Virtuales: 
+### Virtuales: 
 Son lenguajes más portables que los lenguajes compilados puesto que el código que se genera tras la compilación es un código intermedio o bytecode. Este código puede ser a su vez interpretado por una máquina virtual instalada en cualquier equipo. 
 
 
@@ -124,13 +124,13 @@ Son lenguajes más portables que los lenguajes compilados puesto que el código 
 
 
 
-### Paradigma
+## Paradigma
 
 Una vez ya tenemos el lenguaje y cómo lo traducimos, ahora tenemos que especificar cómo queremos estructurar el código, a esta manera de estructurar el código se le llama paradigma
 
-#### Imperativos
+### Imperativos
 Fueron los primeros en surgir y uno de los mas simples de entender, consiste en una secuencia claramente definida de instrucciones que el ordenador sigue en el orden especificado, la mayoria de los lenguajes mas populares soportan este paaradigma. Basic y cobol son uno de los lenguajes mas antiguos con esta funcionalidad
-#### Declarativo
+### Declarativo
 Aqui lo importante no es el como se hace, dar la orden adecuada y este buscara el mejor algoritmo para ello, un ejemplo de programacion declarativa es cuando el python ponemos lo siguiente
 ```python
 'hola mundo'.upper()
@@ -139,12 +139,12 @@ Ya que realmente no estamos programando el algoritmo que pone todas las letras e
 
 Este paradigma suele hacer el codigo mas facil de leer y facil de hacer programas simples, un lenguaje delcarativo, si nos vamos al significado mas amplio, seria SQL, ya que realemnte no nos encargamos de hacer casi ninguno de los algoritmos que suceden
 
-#### Procedimentales
+### Procedimentales
 Este paradigma se basa en agrupar muchas instrucciones mas pequeñas en una especie de grupos llamados procesos
 Un ejemplo seria imprimir la tabla de multiplicar del 5, pero en vez de usar un bucle, usamos un print para cada uno de los valores
 Un ejemplo de lenguajes que aplican este apradigma es Erlang
 
-#### Orientados a objetos
+### Orientados a objetos
 Es probablemente el paradigma mas importante hasta la fecha y el mas usado
 Se basa en crear estructuras de datos funcionales (llamadas clases) que son una especie de planos para un objeto, que es una iteracion de la clase que una vez formada tiene 'vida propia'
 En las clases no solo se almacenan datos sino que tambien codigo que trabaja de manera privada o publica con esa informacion, manteniendo una encapsulacion de datos que mejora la privacidad
@@ -178,12 +178,12 @@ public class Main{
 
 https://user-images.githubusercontent.com/75430027/204877563-f610b23b-f692-4d77-b81d-29ce73d70255.mp4
 
-#### Funcionales
+### Funcionales
 Realmente podria estar dento de lenguajes declarativos, ya que son un tipo de ellos pero con la caracteristica de que estos usan puramente funciones matematicas, este tipo de lenguajes se usa principalmente para manejar informacion, ya que no pueden contener variables
 [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) o [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) son ejemplos de lenguajes que usan el paradigma funcional como paradigma principal
 
 
-#### Logicos
+### Logicos
 El paradigma se basa en la descomposicion de un programa en sus componentes logicos y elementos de control
 Este paradigma es muy poco utilizado, ya que es uno de los mas dificiles de interpretar por un humano cuando se ve el codigo, pero lejos de ser una desventaja, se suel usar a su favor en aplicaciones en las que es beneficioso aislar los calculos, como en la demostracion de teoremas
 El lenguaje logico por excelencia es Prolog
