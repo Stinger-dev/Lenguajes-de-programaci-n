@@ -38,7 +38,7 @@ Ya muchos de estos lenguajes estan basados en ensamblador, es decir, usando inst
 
 ![Rustacean](https://github.com/Stinger-dev/Lenguajes-de-programaci-n/blob/main/Assets/rust.png)
 
-[**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje más aclamado según una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mítico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
+[**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje más aclamado según una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mítico C++ pero solucionando los problemas relacionados con el acceso a memoria.
 Es uno de los lenguajes con mayor proyección cuando hablamos de código que es necesario que se ejecute lo mas rápido posible.
 Así sería una forma de calcular la sucesión de b.
 
