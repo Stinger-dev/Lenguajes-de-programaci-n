@@ -4,7 +4,7 @@ Para empezar, podríamos definir lo que es un lenguaje de programación buscando
 
   _Un **lenguaje de programación** es un lenguaje **formal** que le proporciona a una persona, en este caso el programador, la capacidad de escribir una serie de **instrucciones o secuencias de órdenes** en forma de algoritmos con el fin de **controlar** el comportamiento físico o lógico de un sistema informático_
 
-Podríamos entenderlo como una serie de **comandos preestablecidos** con los que controlamos de manera interna un ordenador
+Podríamos entenderlo como una serie de **comandos preestablecidos** con los que controlamos de manera interna un ordenador.
 
 ## Clasificaciones
 
@@ -14,23 +14,23 @@ A la hora de clasificar los lenguajes podríamos usar la siguiente jerarquía o 
  - [**Forman de ejecución**](#forma-de-ejecución)
  - [**Paradigma**](#paradigma)
  
-Estas tres características son los principales puntos que diferencian y clasican a los lenguajes haciéndolos más o menos aptos para cada tipo de aplicación
+Estas tres características son los principales puntos que diferencian y clasican a los lenguajes haciéndolos más o menos aptos para cada tipo de aplicación.
 
   ## Nivel de abstracción
  
-Para comunicarnos con un ordenador usamos **lenguaje máquina**, que es una **secuencia de 0 y 1 (ceros y unos)** con lo que controlamos los pulsos **eléctricos** que se usan para transmitir el mensaje y las órdenes
+Para comunicarnos con un ordenador usamos **lenguaje máquina**, que es una **secuencia de 0 y 1 (ceros y unos)** con lo que controlamos los pulsos **eléctricos** que se usan para transmitir el mensaje y las órdenes.
 
-Como este sistema es muy **complicado** cuando intentamos hacer programas más complejos, usamos **abstracciones para asemejarse al lenguaje natural**
+Como este sistema es muy **complicado** cuando intentamos hacer programas más complejos, usamos **abstracciones para asemejarse al lenguaje natural**.
 
 Según el nivel de abstracción, un lenguaje tiene un nivel más bajo cuando es más cercano al lenguaje de máquina.
 
- - [**Bajo nivel**](#bajo-nivel)
- - [**Medio nivel**](#medio-nivel)
- - [**Alto nivel**](#alto-nivel)
+ - [**Bajo nivel**](#bajo-nivel).
+ - [**Medio nivel**](#medio-nivel).
+ - [**Alto nivel**](#alto-nivel).
 
 ### Bajo nivel
-Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje máquina
-El mas conocido con diferencia es [**ensamblador**](https://www.youtube.com/watch?v=4gwYkEK0gOk), tiene un set de instrucciones muy pequeño, pero con el que técnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo) 
+Estos fueron los primeros en salir, ya que son los mas cercanos a lenguaje máquina.
+El mas conocido con diferencia es [**ensamblador**](https://www.youtube.com/watch?v=4gwYkEK0gOk), tiene un set de instrucciones muy pequeño, pero con el que técnicamente se puede hacer cualquier cosa, ya que es [**Turing completo**](https://es.wikipedia.org/wiki/Turing_completo).
 
 ### Medio nivel
 Sucesores de los de bajo nivel, son una abstacción mas cercana a lenguaje natural pero manteniendo la libertad que aporta el estar cerca del esamblador
@@ -40,7 +40,7 @@ Ya muchos de estos lenguajes estan basados en ensamblador, es decir, usando inst
 
 [**Rust**](https://www.rust-lang.org) es uno de ellos y ademas el lenguaje más aclamado según una [encuesta](https://insights.stackoverflow.com/survey/2021) realizada por StackOverflow. Surge como un sucesor del mítico C++ pero sulucionando los problemas relacionados con el acceso a memoria.
 Es uno de los lenguajes con mayor proyección cuando hablamos de código que es necesario que se ejecute lo mas rápido posible.
-Así sería una forma de calcular la sucesión de b 
+Así sería una forma de calcular la sucesión de b.
 
 ```rust
 fn main() {
