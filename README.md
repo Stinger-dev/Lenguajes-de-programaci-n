@@ -14,7 +14,7 @@ A la hora de clasificar los lenguajes podríamos usar la siguiente jerarquía o 
  - [**Forman de ejecución**](#forma-de-ejecución)
  - [**Paradigma**](#paradigma)
  
-Estas tres características son los principales puntos que diferencian y clasican a los lenguajes haciéndolos más o menos aptos para cada tipo de aplicación.
+Estas tres características son los principales puntos que diferencian y clasifican a los lenguajes haciéndolos más o menos aptos para cada tipo de aplicación.
 
   ## Nivel de abstracción
  
