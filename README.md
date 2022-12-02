@@ -1,4 +1,4 @@
-# Clasificacion de lenguajes de programacion
+# Clasificación de lenguajes de programación
 
 Para empezar, podríamos definir lo que es un lenguaje de programación buscando en internet. De esta manera, uno de los primeros resultados que nos aparece es el siguiente:
 
